@@ -1,0 +1,97 @@
+
+#templates {
+    display: none;
+}
+
+.main {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.main .upload-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.custom-file {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.custom-file-control::after {
+    content: "Select file...";
+}
+
+.custom-file-control::before {
+    content: "Add file";
+}
+
+.custom-file-control.selected::after {
+    content: "" !important;
+}
+
+.progress {
+    height: 5px;
+    margin-bottom: 15px;
+    visibility: hidden;
+}
+
+.progress .bar {
+    height: 5px;
+    background: green;
+}
+
+.login-status {
+    border-radius: 3px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+}
+
+.login-status:hover {
+    background: #ECF0F1;
+}
+
+#providers-list {
+    margin-bottom: 15px;
+}
+
+.service-provider {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.service-provider .provider-selection {
+    text-align: center;
+    border-top: 1px solid lightgray;
+    padding-top: 3px;
+}
+
+.provider-container .provider-status {
+    text-align: center;
+    font-size: 13px;
+}
+
+.provider-logo {
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+
+.provider-logo img {
+    width: 38px;
+    height: 30px;
+}
+
+.authorize {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#authorize-btn {
+    visibility: hidden;
+}
